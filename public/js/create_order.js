@@ -66,6 +66,7 @@ function updatePallets(){
 
     if (palletList !== null) {
         pallets = palletList.value.split(",");
+        console.log(pallets);
     }
 
     for (let pallet in pallets){

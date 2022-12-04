@@ -1,0 +1,58 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Compressed CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.7.5/dist/css/foundation.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+
+    <title>Add Items</title>
+</head>
+<body>
+   <!-- Nav Bar -->
+   <div class="top-bar">
+    <div class="top-bar-left">
+        <ul class="dropdown menu" data-dropdown-menu>
+            <li class="menu-text">Invenstory</li>
+        </ul>
+    </div>
+    <div class="top-bar-right">
+        <ul class="menu">
+            <a href="/html/picklist_orders.html">Picklist Orders</a>
+            <a href="/html/shipping.html">Shipping</a>
+            <a href="/html/receiving.html">Receiving</a>
+            <a href="/html/add_items.html">Add Items</a>
+            <a href="/html/find_item.html">Find Items</a>
+            <a href="/html/move_items.html">Move Items</a>
+            <a href="/html/client_order.html">Client Order</a>
+        </ul>
+    </div>
+</div>
+
+
+<div class="center-form">
+    <h4> Add Items</h4>
+    <div>
+        <form>
+            <label>Item Serial Number
+                <input type="text" id="SerialInput" placeholder="">
+            </label>
+            <label>Bin Location
+                <input type="text" id="BinInput" placeholder="">
+            </label>
+            <label>Quantity
+                <input type="text" id="QuantityInput" placeholder="">
+            </label>
+            <input type="submit"  class="submit_btn" value="Add">
+        </form>
+    </div>
+</div>
+    
+
+    <script src="./../js/index.js" ></script>
+     <!-- Compressed JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.7.5/dist/js/foundation.min.js" crossorigin="anonymous"></script>
+</body>
+</html>

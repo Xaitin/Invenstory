@@ -5,7 +5,7 @@ import {apiGet, apiPost} from "./modules/crud.js";
 $(document).ready(function(){
     document.getElementById("order_create_submit").onclick = createOrder;
     let urlEnd = "get/AvailablePallets";
-    apiGet(apiPost(endpoints.dev + urlEnd, fillData));
+    apiGet(endpoints.dev + urlEnd, fillData);
 });
 
 

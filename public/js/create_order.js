@@ -69,7 +69,7 @@ function updatePallets(){
         console.log(pallets);
     }
 
-    for (let i = 0; i < pallets.length(); i++) {
+    for (let i = 0; i < pallets.length; i++) {
         let temp = {License_Plate: pallets[i], Order_Num: order}
 
         console.log(temp);

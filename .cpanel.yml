@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - export PATH=/home/bcinvens/
+    - /bin/cp -R /home/bcinvens/repositories/Invenstory $PATH

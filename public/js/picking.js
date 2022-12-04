@@ -17,7 +17,7 @@ function fillData(data){
         let h4 = document.createElement('th');
         let h5 = document.createElement('th');
         let h5_button = document.createElement('button');
-        h5_button.addEventListener('click', function(e) {
+        h5_button.addEventListener('click', function() {
             window.location.href = 'https://bcinvenstory.com/html/pick.html?' + data[i].Order_Num;
         });
         h5_button.className += "button"

@@ -1,5 +1,5 @@
 import endpoints from "./modules/constants.js";
-import {apiGet, apiPost} from "./modules/crud.js";
+import {apiGet} from "./modules/crud.js";
 
 let urlEnd = "get/Pallet";
 document.getElementById("licence_search_butt").onclick = findPallet;

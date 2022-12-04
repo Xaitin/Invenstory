@@ -37,7 +37,7 @@ function addTableRows(data){
     }
 }
 
-function addPallet(num){
+function addPallet(){
     const palletData = document.getElementsByClassName(this.className);
     // console.log("num: "+palletData[0].innerHTML);
     // console.log("lot: "+palletData[1].innerHTML);

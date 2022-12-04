@@ -23,6 +23,7 @@ export function apiPost(endpoint, postData, successFunc=successDefault, failFunc
 
 function successDefault(data, status, jqXHR){
     // alert("successful post");
+    console.log(data, status, jqXHR)
 }
 
 function failDefault(jqXHR, status){

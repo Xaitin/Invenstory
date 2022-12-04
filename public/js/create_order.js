@@ -69,12 +69,11 @@ function updatePallets(){
         console.log(pallets);
     }
 
-    for (let pallet in pallets){
-        let temp = {License_Plate: pallet, Order_Num: order}
+    for (let i = 0; i < pallets.length(); i++) {
+        let temp = {License_Plate: pallets[i], Order_Num: order}
 
         console.log(temp);
         apiPost(endpoints.dev + urlEnd, JSON.stringify(temp));
-
     }
 }
 

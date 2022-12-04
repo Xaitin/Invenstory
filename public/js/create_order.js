@@ -70,6 +70,10 @@ function updatePallets(){
 
     for (let pallet in pallets){
         let temp = {License_Plate: pallet, Order_Num: order}
+
+        console.log(temp);
         apiPost(endpoints.dev + urlEnd, JSON.stringify(temp));
+
     }
 }
+
